@@ -1,0 +1,39 @@
+# Python/Django files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Database files
+*.sqlite3
+*.db
+*.db3
+
+# Static files
+/staticfiles/
+media/
+
+# Log files
+*.log
+*.log.*
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Compiled files
+*.pyc
+*.class
+
+# Django Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
